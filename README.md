@@ -10,3 +10,13 @@ In this project, I have used the games data to predict the ratings/reviews given
 5) These models were trained over our train data using appropriate tuning and tested on the test data.
 6) The predictions were made on the test input to get the test output. The result was measured in terms of mean_squared_error imported from sklearn metrics.
 7) The Random Forest Regressor performed better than the Linear Regressor.
+
+# CREDIT CARD FRAUD DETECTION- Unsupervised Learning.
+
+1)imported the required packages. Checked using the describe function if there is any null value.
+2) Data is a PCA dimensionality reduced.
+3) Since the data is huge, I have taken just the 10% of it to train the model.
+4) Visualized the data using the histogram in each category as well as obtained the heatmap to see if two features have high correlation. One of the highly corelated features can be removed  as it is redundant and do not provide extra information.
+5) Extracted the relevant data for  unsupervised learning
+6) Trained the model(Local Outlier Factor and Isolation Forest) on this train data. And proceeded towards testing. 
+7) Accuracy score and classification_report was generated to see the performance.
