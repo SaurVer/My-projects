@@ -1,4 +1,5 @@
-# My-projects
+# BOARD GAME REVIEW PREDICTION
+
 This is collection of my projects.
 Project- Board Game Review Prediction
 In this project, I have used the games data to predict the ratings/reviews given by the users. The project involves supervised learning with two regression models-1. Linear Regression, 2. Random Forest Regression. The whole process goes as follows -
