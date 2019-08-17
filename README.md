@@ -20,3 +20,22 @@ In this project, I have used the games data to predict the ratings/reviews given
 5) Extracted the relevant data for  unsupervised learning
 6) Trained the model(Local Outlier Factor and Isolation Forest) on this train data. And proceeded towards testing. 
 7) Accuracy score and classification_report was generated to see the performance.
+# Stock Market clustering with KMeans, PCA.
+Unsupervised Learning
+This project was very challenging for me. It has improved my skills in both ML and Python. Here I have imported stock prices of different international stocks from yahoo and tried to cluster them in groups using KMeans clustering. Few highlights are-
+1) Learnt how to set up a pipepline in sklearn
+2) Applied the PCA dimensionality reduction to check if results improve
+3) Used normalizer function to normalize different stocks which can have a different scale of prices. If not standardized, the clustering will consider stocks with the same scale as one group. this will undermine other features.
+
+The whole p[rocess goes as follows-
+1) Data Loading- Made a dictionary consisting of 28 stocks with their tickers as their values
+3) Imported the tock related information from yahoo using pandas_datareader data package.
+4) Overviewed the data to find out that the data is multi-index.  Rows as dates while columns as stock's name under the stock feature such as 'High, 'Low', 'Close', 'Open' etc.
+5) Basis of clustering was chosen to be the day-wise movement of individual stock prices
+6) Movement array was oobtained using numpy.
+7) The movement was visualised with matplotlib. It was found that the stock needs to be standardised.
+Setting up of the sklearn Pipieline.
+8) the pipeline consists of two elements namely: Normalizer()  and other the KMeans clustering.
+9) The results were obtained. After this PCA dimensionality reduction was used to reduce the different dates features into just two.
+10) KMeans was trained similarly and compared.
+11) Finally, the results were visualized using a complex set of codes.
