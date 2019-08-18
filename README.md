@@ -39,3 +39,14 @@ Setting up of the sklearn Pipieline.
 9) The results were obtained. After this PCA dimensionality reduction was used to reduce the different dates features into just two.
 10) KMeans was trained similarly and compared.
 11) Finally, the results were visualized using a complex set of codes.
+
+# Breast Cancer Detection
+In this project, I have used ics uci cancer dataset and trained SVM and  KNeighbour Classifier to classify two cancer types.
+Major learning is kfold cross-validation implementation.
+The project goes as follow-
+1) Loading the dataset from the data repository.
+2) Preprocessed to remove the missing data. Removed the irrelevant columns such as id etc.
+3) Visualised the data using the histogram to see the frequency of values under each feature.
+4) Split the data in test train using sklearn cross-validation. 
+5) Using a for loop obtained the average accuracy scoring for SVM, KNeighboursClassifiers applied in conjunction with kfold cross-validation.
+6) The model which gave the best results was chosen to train and further test the model. Furthermore classification report was generated.
